@@ -239,7 +239,7 @@ const Table = () => {
             <button
               key={index + 1}
               onClick={() => paginate(index + 1)}
-              className={`w-[41px] h-[31px] rounded-lg hover:bg-[#624DE3] hover:text-white ${
+              className={`w-[41px] h-[31px] bg-[#E0E0E0] text-black rounded-lg hover:bg-[#624DE3] hover:text-white focus:bg-[#624DE3] ${
                 currentPage === index + 1 ? "bg-[#624DE3] text-white" : ""
               }`}
             >
